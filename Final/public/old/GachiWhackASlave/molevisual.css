@@ -1,0 +1,465 @@
+body
+{
+    background: url(ogorod.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.startbut
+{
+    position:absolute;
+    left:730px;
+    top:570px;
+    font-size: 40px;
+    color: #d8fadd;
+    background: rgb(98, 255, 20);
+    padding: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+.startbut:hover
+{
+    background: rgb(60, 117, 0);
+    box-shadow: inset 0 0 0 3px #092100;
+}
+.krot
+{
+    height: 75px;
+    width: 75px;
+    background-size: cover;
+    background-position: center;
+}
+.pointstext
+{
+    font-family: "Arial Black";
+    font-size: 35px;
+    color: #42ff00;
+    position:absolute;
+    left:800px;
+    top:200px;
+}
+.pointscount
+{
+    font-family: "Arial Black";
+    font-size: 70px;
+    color: #4dff12;
+    position:absolute;
+    left:960px;
+    top:250px;
+}
+.secondstext
+{
+    font-family: "Arial Black";
+    font-size: 35px;
+    color: #ff0000;
+    position:absolute;
+    left:780px;
+    top:350px;
+}
+.secondscount
+{
+    font-family: "Arial Black";
+    font-size: 70px;
+    color: #ff0000;
+    position:absolute;
+    left:940px;
+    top:400px;
+}
+.nora
+{
+    background-image: url('nora.jpg');
+    height: 75px;
+    width: 75px;
+    background-size: cover;
+    background-position: center;
+}
+#nora1
+{
+    position:absolute;
+    left:50px;
+    top:50px;
+}
+#nora11
+{
+    position:absolute;
+    left:50px;
+    top:50px;
+}
+#nora12
+{
+    position:absolute;
+    left:130px;
+    top:50px;
+}
+#nora13
+{
+    position:absolute;
+    left:210px;
+    top:50px;
+}
+#nora14
+{
+    position:absolute;
+    left:290px;
+    top:50px;
+}
+#nora15
+{
+    position:absolute;
+    left:370px;
+    top:50px;
+}
+#nora16
+{
+    position:absolute;
+    left:450px;
+    top:50px;
+}
+#nora17
+{
+    position:absolute;
+    left:530px;
+    top:50px;
+}
+#nora18
+{
+    position:absolute;
+    left:610px;
+    top:50px;
+}
+#nora21
+{
+    position:absolute;
+    left:50px;
+    top:130px;
+}
+#nora22
+{
+    position:absolute;
+    left:130px;
+    top:130px;
+}
+#nora23
+{
+    position:absolute;
+    left:210px;
+    top:130px;
+}
+#nora24
+{
+    position:absolute;
+    left:290px;
+    top:130px;
+}
+#nora25
+{
+    position:absolute;
+    left:370px;
+    top:130px;
+}
+#nora26
+{
+    position:absolute;
+    left:450px;
+    top:130px;
+}
+#nora27
+{
+    position:absolute;
+    left:530px;
+    top:130px;
+}
+#nora28
+{
+    position:absolute;
+    left:610px;
+    top:130px;
+}
+#nora31
+{
+    position:absolute;
+    left:50px;
+    top:210px;
+}
+#nora32
+{
+    position:absolute;
+    left:130px;
+    top:210px;
+}
+#nora33
+{
+    position:absolute;
+    left:210px;
+    top:210px;
+}
+#nora34
+{
+    position:absolute;
+    left:290px;
+    top:210px;
+}
+#nora35
+{
+    position:absolute;
+    left:370px;
+    top:210px;
+}
+#nora36
+{
+    position:absolute;
+    left:450px;
+    top:210px;
+}
+#nora37
+{
+    position:absolute;
+    left:530px;
+    top:210px;
+}
+#nora38
+{
+    position:absolute;
+    left:610px;
+    top:210px;
+}
+#nora41
+{
+    position:absolute;
+    left:50px;
+    top:290px;
+}
+#nora42
+{
+    position:absolute;
+    left:130px;
+    top:290px;
+}
+#nora43
+{
+    position:absolute;
+    left:210px;
+    top:290px;
+}
+#nora44
+{
+    position:absolute;
+    left:290px;
+    top:290px;
+}
+#nora45
+{
+    position:absolute;
+    left:370px;
+    top:290px;
+}
+#nora46
+{
+    position:absolute;
+    left:450px;
+    top:290px;
+}
+#nora47
+{
+    position:absolute;
+    left:530px;
+    top:290px;
+}
+#nora48
+{
+    position:absolute;
+    left:610px;
+    top:290px;
+}
+#nora51
+{
+    position:absolute;
+    left:50px;
+    top:370px;
+}
+#nora52
+{
+    position:absolute;
+    left:130px;
+    top:370px;
+}
+#nora53
+{
+    position:absolute;
+    left:210px;
+    top:370px;
+}
+#nora54
+{
+    position:absolute;
+    left:290px;
+    top:370px;
+}
+#nora55
+{
+    position:absolute;
+    left:370px;
+    top:370px;
+}
+#nora56
+{
+    position:absolute;
+    left:450px;
+    top:370px;
+}
+#nora57
+{
+    position:absolute;
+    left:530px;
+    top:370px;
+}
+#nora58
+{
+    position:absolute;
+    left:610px;
+    top:370px;
+}
+#nora61
+{
+    position:absolute;
+    left:50px;
+    top:450px;
+}
+#nora62
+{
+    position:absolute;
+    left:130px;
+    top:450px;
+}
+#nora63
+{
+    position:absolute;
+    left:210px;
+    top:450px;
+}
+#nora64
+{
+    position:absolute;
+    left:290px;
+    top:450px;
+}
+#nora65
+{
+    position:absolute;
+    left:370px;
+    top:450px;
+}
+#nora66
+{
+    position:absolute;
+    left:450px;
+    top:450px;
+}
+#nora67
+{
+    position:absolute;
+    left:530px;
+    top:450px;
+}
+#nora68
+{
+    position:absolute;
+    left:610px;
+    top:450px;
+}
+#nora71
+{
+    position:absolute;
+    left:50px;
+    top:530px;
+}
+#nora72
+{
+    position:absolute;
+    left:130px;
+    top:530px;
+}
+#nora73
+{
+    position:absolute;
+    left:210px;
+    top:530px;
+}
+#nora74
+{
+    position:absolute;
+    left:290px;
+    top:530px;
+}
+#nora75
+{
+    position:absolute;
+    left:370px;
+    top:530px;
+}
+#nora76
+{
+    position:absolute;
+    left:450px;
+    top:530px;
+}
+#nora77
+{
+    position:absolute;
+    left:530px;
+    top:530px;
+}
+#nora78
+{
+    position:absolute;
+    left:610px;
+    top:530px;
+}
+#nora81
+{
+    position:absolute;
+    left:50px;
+    top:610px;
+}
+#nora82
+{
+    position:absolute;
+    left:130px;
+    top:610px;
+}
+#nora83
+{
+    position:absolute;
+    left:210px;
+    top:610px;
+}
+#nora84
+{
+    position:absolute;
+    left:290px;
+    top:610px;
+}
+#nora85
+{
+    position:absolute;
+    left:370px;
+    top:610px;
+}
+#nora86
+{
+    position:absolute;
+    left:450px;
+    top:610px;
+}
+#nora87
+{
+    position:absolute;
+    left:530px;
+    top:610px;
+}
+#nora88
+{
+    position:absolute;
+    left:610px;
+    top:610px;
+}

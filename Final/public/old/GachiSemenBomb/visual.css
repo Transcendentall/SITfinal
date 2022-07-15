@@ -1,0 +1,101 @@
+body
+{
+    background: url(terek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.timer
+{
+
+    font-family: "Arial Black";
+    font-size: 35px;
+    color: #362700;
+
+    position:absolute;
+    left:55px;
+    top:30px;
+}
+.min
+{
+    position:absolute;
+    left:60px;
+    top:200px;
+}
+.sec
+{
+    position:absolute;
+    left:150px;
+    top:200px;
+}
+.milsec
+{
+    position:absolute;
+    left:250px;
+    top:200px;
+}
+
+.dvoetochie1
+{
+    position:absolute;
+    left:125px;
+    top:280px;
+}
+.dvoetochie2
+{
+    position:absolute;
+    left:217px;
+    top:280px;
+}
+
+.plusbut
+{
+    font-size: 40px;
+    color: #d8fadd;
+    background: rgb(65, 176, 0);
+    padding: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.plusbut:hover
+{
+    background: rgb(91, 255, 0);
+    box-shadow: inset 0 0 0 3px #000000;
+}
+
+.minusbut
+{
+    font-size: 40px;
+    color: #fab5b5;
+    background: rgb(206, 0, 0);
+    padding: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+.minusbut:hover
+{
+    background: rgb(255, 55, 55);
+    box-shadow: inset 0 0 0 3px #000000;
+}
+
+.startbutton {
+
+    font-family: "Arial Black";
+    font-family: cursive;
+    background: rgb(0, 255, 89);
+    font-size: 30px;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    border: 4px solid #000000;
+    position:absolute;
+    left:50px;
+    top:500px;
+}
+.startbutton:hover
+{
+    background: rgb(8, 47, 1);
+    box-shadow: inset 0 0 0 3px #ff0000;
+}

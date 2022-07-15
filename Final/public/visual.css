@@ -1,0 +1,73 @@
+html
+{
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 22px;
+    font-family: "Times New Roman", Georgia, Serif;
+    color: #fcefe8;
+}
+
+.but
+{
+    font-size: 14px;
+    color: #d8fadd;
+    background: rgb(88, 161, 21);
+    border-color: orange;
+    padding: 2px;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+}
+.but:hover
+{
+    background: rgb(24, 47, 0);
+    box-shadow: inset 0 0 0 3px #092100;
+}
+.field
+{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 16px;
+    color: darkred;
+    background: rgb(225, 255, 195);
+    border-color: orange;
+    padding: 2px;
+    border-radius: 2px;
+
+}
+.text
+{
+    font-family: "Comic Sans MS", Georgia, Serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #ad1010;
+    background: rgba(202, 234, 177, 0.8);
+    border-color: orange;
+    padding: 2px;
+    border-radius: 2px;
+
+}
+.authorisation
+{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 20px;
+    color: #ad1010;
+    background: rgba(255, 195, 154, 0.8);
+    padding: 2px;
+
+}
+.authorisationtrue
+{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 20px;
+    color: #2b7705;
+    background: rgba(234, 255, 212, 0.8);
+    padding: 2px;
+
+}

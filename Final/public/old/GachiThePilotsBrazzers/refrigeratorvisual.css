@@ -1,0 +1,120 @@
+.ventil
+{
+    background-image: url('ventil.jpg');
+    height: 152px;
+    width: 152px;
+    background-size: cover;
+    background-position: center;
+}
+.ventil:hover
+{
+    background-image: url('ventil2.jpg');
+}
+
+#vent11
+{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+#vent12
+{
+    position:absolute;
+    left:210px;
+    top:10px;
+}
+#vent13
+{
+    position:absolute;
+    left:410px;
+    top:10px;
+}
+#vent14
+{
+    position:absolute;
+    left:610px;
+    top:10px;
+}
+
+#vent21
+{
+    position:absolute;
+    left:10px;
+    top:210px;
+}
+#vent22
+{
+    position:absolute;
+    left:210px;
+    top:210px;
+}
+#vent23
+{
+    position:absolute;
+    left:410px;
+    top:210px;
+}
+#vent24
+{
+    position:absolute;
+    left:610px;
+    top:210px;
+}
+
+#vent31
+{
+    position:absolute;
+    left:10px;
+    top:410px;
+}
+#vent32
+{
+    position:absolute;
+    left:210px;
+    top:410px;
+}
+#vent33
+{
+    position:absolute;
+    left:410px;
+    top:410px;
+}
+#vent34
+{
+    position:absolute;
+    left:610px;
+    top:410px;
+}
+
+#vent41
+{
+    position:absolute;
+    left:10px;
+    top:610px;
+}
+#vent42
+{
+    position:absolute;
+    left:210px;
+    top:610px;
+}
+#vent43
+{
+    position:absolute;
+    left:410px;
+    top:610px;
+}
+#vent44
+{
+    position:absolute;
+    left:610px;
+    top:610px;
+}
+
+body
+{
+    background: url(reft.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

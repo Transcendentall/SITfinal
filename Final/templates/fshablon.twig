@@ -1,0 +1,82 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>Composer, Twig and Monolog</title>
+
+
+    <style>
+        body
+        {
+            background-size: cover;
+        {% block style %}
+        {% endblock %}
+        }
+        .name {
+            margin-top: 30px;
+            font-family: "Arial Black";
+            color: deeppink;
+            font-size: 30px;
+            font-style: italic;
+            display: flex;
+            justify-content: center;
+        }
+        .text {
+            margin-top: 30px;
+            font-family: "Comic Sans MS";
+            color: #ff98c7;
+            font-size: 14px;
+            font-style: italic;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+        .mybutton {
+            margin-top: 5px;
+            font-family: "Arial Black";
+            color: white;
+            background-color: #ff64a5;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .mybutton:hover {
+            background-color: #690248;
+            transition: 1s linear;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="buttons">
+        <button type="button" id="buttonBilly" class="mybutton">
+            <a href="pageofbilly.php">Страничка ♂Билли Херрингтона♂</a>
+        </button>
+        <button type="button" id="buttonVan" class="mybutton">
+            <a href="pageofvan.php">Страничка ♂Вана Даркхольма♂</a>
+        </button>
+        <button type="button" id="buttonRicardo" class="mybutton">
+            <a href="pageofricardo.php">Страничка ♂Рикардо Милоса♂</a>
+        </button>
+        <button type="button" id="buttonLogs" class="mybutton">
+            <a href="logs.php">Страничка c логами</a>
+        </button>
+    </div>
+
+
+<div class="name">
+    {% block name %}
+    {% endblock %}
+    {% block text %}
+    {% endblock %}
+</div>
+
+</body>
+
+</html>

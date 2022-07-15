@@ -1,0 +1,34 @@
+{% extends 'fshablon0.twig' %}
+{% block style %}
+    background: url('/Final/public/images/gachiback33.jpg') no-repeat fixed;
+{% endblock %}
+{% block content %}
+
+    <form method="post">
+        <div class="tabletext">
+            <label class="tablelabel">Фамилия (ОБЯЗАТЕЛЬНО ДЛЯ ЗАПОЛНЕНИЯ)</label>
+            <input class="tableform" name="surname" type="text" value="{{ gachimuchenik.getSurname() }}">
+        </div>
+        <div class="tabletext">
+            <label class="tablelabel">Имя (ОБЯЗАТЕЛЬНО ДЛЯ ЗАПОЛНЕНИЯ)</label>
+            <input class="tableform" name="name" type="text" value="{{ gachimuchenik.getName() }}">
+        </div>
+        <div class="tabletext">
+            <label class="tablelabel">Отчество (если есть)</label>
+            <input class="tableform" name="fathername" type="text" value="{{ gachimuchenik.getFathername() }}">
+        </div>
+        <div class="tabletext">
+            <label class="tablelabel">Город (если известен)</label>
+            <input class="tableform" name="city" type="text" value="{{ gachimuchenik.getCity() }}">
+        </div>
+        <div class="tabletext">
+            <label class="tablelabel">Звание (если есть)</label>
+            <input class="tableform" name="rang" type="text" value="{{ gachimuchenik.getRang() }}">
+        </div>
+        <div class="tabletext">
+            <label class="tablelabel">Зарплата в ♂bucks♂ах (ОБЯЗАТЕЛЬНО ДЛЯ ЗАПОЛНЕНИЯ)</label>
+            <input class="tableform" name="ZarplataInBucks" type="text" value="{{ gachimuchenik.getZarplataInBucks() }}">
+        </div>
+        <button class="buttoncreate" type="submit">Подтвердить изменения</button>
+    </form>
+{% endblock %}

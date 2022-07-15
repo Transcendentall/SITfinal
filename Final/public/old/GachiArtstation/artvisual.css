@@ -1,0 +1,147 @@
+body
+{
+    background-color: deeppink;
+}
+.superphrase
+{
+    color: white;
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+.si
+{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+.si:hover
+{
+    border: 3px solid #0051ff;
+}
+.bi
+{
+    width: 360px;
+    height: 230px;
+    border: 2px solid black;
+}
+.bi:hover
+{
+    border: 3px solid #46de06;
+}
+.smallimage
+{
+    position:absolute;
+    left:400px;
+    top:100px;
+}
+#bi1
+{
+    position:absolute;
+    top:85px;
+    left:10px;
+}
+#bi2
+{
+    position:absolute;
+    top:85px;
+    left:860px;
+}
+#bi3
+{
+    position:absolute;
+    top:335px;
+    left:10px;
+}
+#bi4
+{
+    position:absolute;
+    top:335px;
+    left:860px;
+}
+#bi5
+{
+    position:absolute;
+    top:585px;
+    left:10px;
+}
+#bi6
+{
+    position:absolute;
+    top:585px;
+    left:860px;
+}
+#bi7
+{
+    position:absolute;
+    top:835px;
+    left:10px;
+}
+#bi8
+{
+    position:absolute;
+    top:835px;
+    left:860px;
+}
+#bi9
+{
+    position:absolute;
+    top:1085px;
+    left:10px;
+}
+#bi10
+{
+    position:absolute;
+    top:1085px;
+    left:860px;
+}
+#si2
+{
+    position:absolute;
+    left:630px;
+}
+#si3
+{
+    position:absolute;
+    top:330px;
+}
+#si4
+{
+    position:absolute;
+    top:330px;
+    left:630px;
+}
+#si5
+{
+    position:absolute;
+    top:560px;
+}
+#si6
+{
+    position:absolute;
+    top:560px;
+    left:630px;
+}
+#si7
+{
+    position:absolute;
+    top:790px;
+}
+#si8
+{
+    position:absolute;
+    top:790px;
+    left:630px;
+}
+#si9
+{
+    position:absolute;
+    top:1020px;
+}
+#si10
+{
+    position:absolute;
+    top:1020px;
+    left:630px;
+}

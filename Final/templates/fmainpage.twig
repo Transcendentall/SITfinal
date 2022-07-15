@@ -1,0 +1,62 @@
+{% extends 'fshablon0.twig' %}
+{% block style %}
+    background: url('/Final/public/images/gachiback11.jpg') no-repeat fixed;
+{% endblock %}
+{% block content %}
+    <div class="container">
+
+        <div class="tabletext">
+            <label class="tablelabel">БАЗА ДАННЫХ ♂REAL MEN♂ОВ:</label>
+            <label class="tablelabel">(PDO + Active Record)</label>
+        </div>
+
+
+
+        <div>
+            <a class="buttoncreate" href="create.php">Добавить нового ♂REAL MEN♂а в таблицу!</a>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-fit mt-5 table-danger table-striped table-hover table-bordered border-danger">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Фамилия</th>
+                    <th scope="col">Имя</th>
+                    <th scope="col">Отчество</th>
+                    <th scope="col">Город</th>
+                    <th scope="col">Звание</th>
+                    <th scope="col">Зарплата в ♂bucks♂</th>
+                    <th scope="col">Редактирование записей</th>
+                    <th scope="col">Удаление записей</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for gachimuchenik in gachimuchies %}
+                    <tr>
+                        <th scope="row">{{ gachimuchenik.getID() }}</th>
+                        <td>{{ gachimuchenik.getSurname() }}</td>
+                        <td>{{ gachimuchenik.getName() }}</td>
+                        <td>{{ gachimuchenik.getFathername() }}</td>
+                        <td>{{ gachimuchenik.getCity() }}</td>
+                        <td>{{ gachimuchenik.getRang() }}</td>
+                        <td>{{ gachimuchenik.getZarplataInBucks() }}</td>
+                        <td>
+                            <div>
+                                <a class="buttonedit" href="update.php?id={{ gachimuchenik.getID() }}">Редактировать</a>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <a class="buttondelete" href="delete.php?id={{ gachimuchenik.getID() }}">Удалить</a>
+                            </div>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+{% endblock %}

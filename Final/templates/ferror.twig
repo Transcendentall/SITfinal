@@ -1,0 +1,32 @@
+{% extends 'fshablon0.twig' %}
+{% block style %}
+    background: url('/Final/public/images/gachiback44.jpg') no-repeat fixed;
+{% endblock %}
+{% block content %}
+    <div class="container">
+
+        <div class="tabletext">
+            <label class="tablelabel">ОШИБКА!</label>
+        </div>
+
+
+        <div class="tabletext">
+            <label class="tablelabel">Из-за неверных данных не удалось выполнить последнее действие. Попробуй ещё раз.</label>
+        </div>
+
+        <div class="tabletext">
+            <label class="tablelabel">Но помни:</label>
+            <label class="tablelabel"> 1) Фамилия, Имя и Зарплата в баксах не должны быть пустыми!</label>
+            <label class="tablelabel"> 2) Зарплата в баксах должна быть целым положительным числом!</label>
+            <label class="tablelabel"> 3) Нельзя отредактировать/удалить запись с несуществующим id.</label>
+            <label class="tablelabel"> 4) В таблице не должно быть двух одинаковых записей.</label>
+            <label class='tablelabel'> 5) Все текстовые поля должны занимать не более 20 символов.</label>
+        </div>
+
+        <div>
+            <a class="buttoncreate" href="index.php">Вернуться на стартовую страницу...</a>
+        </div>
+
+
+    </div>
+{% endblock %}
